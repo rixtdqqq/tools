@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">微信</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_receiver">ReceiverActivity</string>
+    <string name="title_activity_dialog">DialogActivity</string>
+    <string name="title_activity_four">FourActivity</string>
+    <string name="title_activity_side">SideActivity</string>
+    <string-array name="myFriend">
+        <item>成功</item>
+        <item>陈毅</item>
+        <item>邓小平</item>
+        <item>毛泽东</item>
+        <item>周恩来</item>
+        <item>朱德</item>
+        <item>华国锋</item>
+        <item>李宁</item>
+        <item>王健林</item>
+        <item>李嘉诚</item>
+        <item>毛岸英</item>
+        <item>光绪</item>
+        <item>诸葛亮</item>
+        <item>刘备</item>
+        <item>司马懿</item>
+        <item>安踏</item>
+        <item>刘德华</item>
+        <item>王力宏</item>
+        <item>刘欢</item>
+        <item>光头强</item>
+        <item>唐老鸭</item>
+    </string-array>
+    <string name="title_activity_water_full">WaterFullActivity</string>
+    <string name="title_activity_wind_will">WindWillActivity</string>
+    <string name="title_activity_flow_layout">FlowLayoutActivity</string>
+    <string name="title_activity_percent">PercentActivity</string>
+    <string name="title_activity_alpha_nav">AlphaNavActivity</string>
+    <string name="title_activity_music">MusicActivity</string>
+    <string name="title_activity_inject">InjectActivity</string>
+    <string name="title_activity_gif">GifActivity</string>
+</resources>

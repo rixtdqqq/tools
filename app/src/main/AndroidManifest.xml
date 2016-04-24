@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.myapplication" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.ReceiverActivity"
+            android:label="@string/title_activity_receiver" />
+        <activity
+            android:name=".activity.DialogActivity"
+            android:label="@string/title_activity_dialog"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".activity.FourActivity"
+            android:label="@string/title_activity_four" />
+        <activity
+            android:name=".activity.SideActivity"
+            android:label="@string/title_activity_side" >
+        </activity>
+        <activity
+            android:name=".activity.WaterFullActivity"
+            android:label="@string/title_activity_water_full" />
+        <activity
+            android:name=".activity.WindWillActivity"
+            android:label="@string/title_activity_wind_will" >
+        </activity>
+        <activity
+            android:name=".activity.FlowLayoutActivity"
+            android:label="@string/title_activity_flow_layout" >
+        </activity>
+        <activity
+            android:name=".activity.PercentActivity"
+            android:label="@string/title_activity_percent" >
+        </activity>
+        <activity
+            android:name=".activity.AlphaNavActivity"
+            android:label="@string/title_activity_alpha_nav" >
+        </activity>
+
+        <service android:name=".service.MusicService" />
+
+        <activity
+            android:name=".activity.InjectActivity"
+            android:label="@string/title_activity_inject" >
+        </activity>
+        <activity
+            android:name=".activity.GifActivity"
+            android:label="@string/title_activity_gif" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
